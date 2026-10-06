@@ -35,3 +35,21 @@ body { margin: 0; background: #f6f8fb; color: #1f2937; }
 .error-text { color: #b42318; }
 .status-legend { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 10px; font-size: 12px; color: var(--muted); }
 .legend-item { background: #eef2f7; border-radius: 999px; padding: 2px 10px; }
+/* 空态：取不到现场数据时的留空展示，与测量值 0 区分 */
+.empty-value { color: var(--muted); font-weight: 600; }
+.empty-reason { display: block; color: #b42318; font-size: 12px; margin-top: 2px; }
+.cell-retry { margin-left: 8px; }
+.fault-text { color: #b42318; }
+.notice-bar { background: #fff7ed; border: 1px solid #fdba74; border-radius: 8px; padding: 8px 12px; margin-bottom: 12px; font-size: 13px; color: #9a3412; }
+.panel { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 12px; margin-bottom: 12px; }
+.panel h3 { margin: 0 0 8px; font-size: 14px; }
+.panel .form-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 8px; }
+.panel .form-item { flex: 1; min-width: 160px; }
+.panel .form-item span { display: block; font-size: 12px; color: var(--muted); margin-bottom: 2px; }
+.panel input, .panel textarea { width: 100%; border: 1px solid var(--border); border-radius: 6px; padding: 6px 8px; font-size: 13px; font-family: inherit; }
+.panel textarea { min-height: 96px; resize: vertical; }
+.panel .panel-actions { display: flex; gap: 8px; margin-top: 4px; }
+.sub-section { margin-top: 18px; }
+.sub-section h3 { font-size: 14px; margin: 0 0 8px; }
+.sub-section .section-desc { font-size: 12px; color: var(--muted); margin: 0 0 8px; }
+.ok-text { color: #067647; }
