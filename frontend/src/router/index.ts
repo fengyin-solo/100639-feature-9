@@ -5,6 +5,8 @@ const Tunnel = () => import('@/views/tunnel/index.vue')
 const Pipeline = () => import('@/views/pipeline/index.vue')
 const Envmonitor = () => import('@/views/envmonitor/index.vue')
 const Ventilation = () => import('@/views/ventilation/index.vue')
+const WorkOrders = () => import('@/views/workorders/index.vue')
+const Materials = () => import('@/views/materials/index.vue')
 const Drainage = () => import('@/views/drainage/index.vue')
 const Firecontrol = () => import('@/views/firecontrol/index.vue')
 const Lighting = () => import('@/views/lighting/index.vue')
@@ -28,6 +30,8 @@ const router = createRouter({
     { path: '/pipeline', name: 'pipeline', component: Pipeline },
     { path: '/envmonitor', name: 'envmonitor', component: Envmonitor },
     { path: '/ventilation', name: 'ventilation', component: Ventilation },
+    { path: '/workorders', name: 'workorders', component: WorkOrders },
+    { path: '/materials', name: 'materials', component: Materials },
     { path: '/drainage', name: 'drainage', component: Drainage },
     { path: '/firecontrol', name: 'firecontrol', component: Firecontrol },
     { path: '/lighting', name: 'lighting', component: Lighting },
